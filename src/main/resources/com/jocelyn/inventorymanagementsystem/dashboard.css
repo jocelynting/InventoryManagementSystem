@@ -1,0 +1,172 @@
+.nav-gradient {
+    -fx-background-color: linear-gradient(to bottom right, #2F3F89, #9231B5);
+}
+
+.nav-btn {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 15px;
+    -fx-font-family: "JetBrains Mono";
+    -fx-alignment: center_left;
+}
+
+.nav-btn:hover {
+    -fx-background-color: #9231B5;
+}
+
+.white-bg {
+    -fx-background-color: #fff;
+    -fx-background-radius: 10px;
+}
+
+.shadow {
+    -fx-effect:dropshadow(three-pass-box, rgba(0,0,0,0.4), 4,0,0,0);
+}
+
+.search {
+    -fx-background-color:transparent;
+    -fx-background-radius: 15px;
+    -fx-border-color:linear-gradient(to bottom right, #2f3f89,#9231b5) ;
+    -fx-border-radius:5px 12px 5px 5px;
+    -fx-border-width:1px;
+    -fx-padding: 0px 0px 0px 30px;
+}
+
+.search:focused {
+    -fx-border-width: 1.8px;
+}
+
+.add-btn{
+    -fx-background-color: #3e608c;
+    -fx-background-radius: 8px;
+    -fx-cursor:hand;
+    -fx-text-fill:#fff;
+    -fx-font-size:15px;
+    -fx-font-family: "JetBrains Mono"
+}
+
+.add-btn:hover{
+    -fx-background-color:#6597d3;
+}
+
+.update-btn{
+    -fx-background-color: #754186;
+    -fx-background-radius: 8px;
+    -fx-cursor:hand;
+    -fx-text-fill:#fff;
+    -fx-font-size:15px;
+    -fx-font-family: "JetBrains Mono"
+}
+
+.update-btn:hover{
+    -fx-background-color:#c375dd;
+}
+
+.delete-btn{
+    -fx-background-color: #9d374a;
+    -fx-background-radius: 8px;
+    -fx-cursor:hand;
+    -fx-text-fill:#fff;
+    -fx-font-size:15px;
+    -fx-font-family: "JetBrains Mono"
+}
+
+.delete-btn:hover{
+    -fx-background-color:#e4657e;
+}
+
+.date-picker {
+    -fx-background-color: transparent;
+    -fx-background-radius: 10px;
+    -fx-border-color: linear-gradient(to bottom right, #2f3f89, #9231b5);
+    -fx-border-width: 1px;
+    -fx-padding: 0px 0px 0px 10px;
+}
+
+.date-picker:focused {
+    -fx-border-width: 1.8px;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: #b092c5;
+}
+
+.date-picker .arrow-button:hover {
+    -fx-background-color: #d1b9e1;
+}
+
+.date-picker .text-field:focused {
+    -fx-border-color: transparent;
+}
+
+.search-btn {
+    -fx-background-color: transparent;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+    -fx-text-fill: #000;
+    -fx-font-size: 15px;
+    -fx-font-family: "JetBrains Mono";
+}
+
+.table-view {
+    -fx-background-color: transparent;
+    -fx-padding: 0px;
+    -fx-border-color:linear-gradient(to bottom right, #2f3f89, #9231b5);
+    -fx-border-radius: 5px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: linear-gradient(to bottom right, #2f3f89, #9231b5) ;
+    -fx-background-insets:0 0 0 0;
+}
+
+.table-view .column-header, .filter{
+    -fx-background-color:transparent;
+    -fx-size: 30px;
+}
+
+.table-view .column-header, .label{
+    -fx-text-fill:#fff;
+}
+
+.table-view .table-cell {
+    -fx-alignment: center;
+}
+
+.table-view .table-cell,
+.table-view .table-row-cell,
+.table-view {
+    -fx-border-color: transparent;
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #b092c5;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical {
+    -fx-pref-width: 0;
+    -fx-background-color: transparent;
+}
+
+.table-view .virtual-flow .scroll-bar:horizontal {
+    -fx-pref-width: 0;
+    -fx-background-color: transparent;
+}
+
+.table-view .virtual-flow .scroll-bar:horizontal .increment-button .increment-arrow,
+.table-view .virtual-flow .scroll-bar:horizontal .decrement-button .decrement-arrow,
+.table-view .virtual-flow .scroll-bar:vertical .increment-button .increment-arrow,
+.table-view .virtual-flow .scroll-bar:vertical .decrement-button .decrement-arrow {
+    -fx-background-color: transparent;
+}
+
+.logout-btn {
+    -fx-background-color: #6a5fff;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+}
+
+.logout-btn:hover{
+    -fx-background-color: #8c84ff;
+}

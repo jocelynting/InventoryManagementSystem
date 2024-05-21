@@ -1,0 +1,75 @@
+.card {
+    /*-fx-background-color:linear-gradient(to right, #444857, #537e90);*/
+    -fx-background-color: linear-gradient(to bottom right, #2F3F89, #9231B5);
+}
+
+.text-field{
+    -fx-background-color: #fff;
+    -fx-border-color:linear-gradient(to right, #444857, #537e90) ;
+    -fx-border-width: 0px 0px 0.8px 0px;
+    -fx-font-size:15px;
+    -fx-font-family: "JetBrains Mono";
+}
+
+.text-area{
+    -fx-background-color: #fff;
+    -fx-border-color:linear-gradient(to right, #444857, #537e90) ;
+    -fx-border-width: 0px 0px 0.8px 0px;
+    -fx-font-size:15px;
+    -fx-font-family: "JetBrains Mono";
+}
+
+/*.textfield:focused {*/
+/*    -fx-border-color:linear-gradient(to bottom right, #2f3f89, #9231b5) ;*/
+/*    -fx-border-width:0px 0px 1.5px 0px;*/
+/*}*/
+
+.combo-box {
+    -fx-background-color: #fff;
+    -fx-background-radius: 5px;
+    -fx-border-color:linear-gradient(to right, #444857, #537e90) ;
+    -fx-border-width: 0.8px;
+    -fx-border-radius: 0.5px;
+    -fx-font-size:15px;
+    -fx-font-family: "JetBrains Mono";
+}
+
+/*.combo-box:focused{*/
+/*    -fx-border-color:linear-gradient(to bottom right, #2f3f89, #9231b5);*/
+/*    -fx-border-width:1.5px;*/
+/*}*/
+
+.confirm-btn{
+    -fx-background-color: transparent;
+    -fx-background-radius: 8px;
+    -fx-border-color: #fff;
+    -fx-border-width:1px;
+    -fx-border-radius: 8px;
+    -fx-cursor:hand;
+    -fx-text-fill:#fff;
+    -fx-font-size:15px;
+    -fx-font-family: "JetBrains Mono";
+    -fx-font-weight: bold;
+}
+
+.confirm-btn:hover{
+    /*-fx-background-color:#c375dd;*/
+    -fx-background-color: #2F3F89;
+}
+
+.cancel-btn{
+    -fx-background-color: transparent;
+    -fx-background-radius: 8px;
+    -fx-border-color: #fff;
+    -fx-border-width:1px;
+    -fx-border-radius: 8px;
+    -fx-cursor:hand;
+    -fx-text-fill:#fff;
+    -fx-font-size:15px;
+    -fx-font-family: "JetBrains Mono"
+}
+
+.cancel-btn:hover{
+    /*-fx-background-color:#e4657e;*/
+    -fx-background-color: #2F3F89;
+}

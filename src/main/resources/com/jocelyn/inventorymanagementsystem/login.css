@@ -1,0 +1,34 @@
+.left-panel-gradient {
+    -fx-background-color: linear-gradient(to bottom right, #2F3F89, #9231B5);
+}
+
+.login-label {
+    -fx-border-color: #9231B5;
+    -fx-border-width: 0 0 0 4px;
+    -fx-padding: 0 0 0 5px;
+}
+
+.login-textfield{
+    -fx-background-color: transparent;
+    -fx-border-color: #3f3951;
+    -fx-border-width:0px 0px 1px 0px;
+    -fx-font-size:15px;
+    -fx-font-family: "JetBrains Mono";
+}
+
+.login-textfield:focused {
+    -fx-border-color:linear-gradient(to bottom right, #2f3f89, #9231b5);
+    -fx-border-width:0px 0px 1.5px 0px;
+}
+
+.login-button {
+    -fx-background-color: linear-gradient(to bottom, #649de4, #2F3F89);
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-font-size: 15px;
+    -fx-font-family: "JetBrains Mono";
+}
+
+.login-button:hover {
+    -fx-background-color: linear-gradient(to bottom right, #649de4, #9231B5);
+}

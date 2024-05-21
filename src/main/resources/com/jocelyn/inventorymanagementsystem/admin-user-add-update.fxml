@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="370.0" styleClass="card" stylesheets="@add-update-delete.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jocelyn.inventorymanagementsystem.controller.AdminAddUpdateUserController">
+   <children>
+      <Label fx:id="title" alignment="CENTER" layoutX="20.0" layoutY="30.0" text="Add New User" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font name="JetBrains Mono ExtraBold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="111.0" text="Name" textFill="WHITE">
+         <font>
+            <Font name="JetBrains Mono Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="170.0" text="Password" textFill="WHITE">
+         <font>
+            <Font name="JetBrains Mono Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="224.0" text="Role" textFill="WHITE">
+         <font>
+            <Font name="JetBrains Mono Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="submitBtn" layoutX="53.0" layoutY="319.0" mnemonicParsing="false" onAction="#submit" prefHeight="35.0" prefWidth="120.0" styleClass="confirm-btn" text="Submit" />
+      <Button fx:id="cancelBtn" layoutX="199.0" layoutY="319.0" mnemonicParsing="false" onAction="#cancel" prefHeight="35.0" prefWidth="120.0" styleClass="cancel-btn" text="Cancel" />
+      <TextField fx:id="nameTF" layoutX="128.0" layoutY="104.0" prefHeight="35.0" prefWidth="200.0" styleClass="text-field" stylesheets="@add-update-delete.css" />
+      <TextField fx:id="passwordTF" layoutX="128.0" layoutY="163.0" prefHeight="35.0" prefWidth="200.0" styleClass="text-field" stylesheets="@add-update-delete.css" />
+      <MenuButton fx:id="roleSelection" layoutX="128.0" layoutY="220.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" styleClass="combo-box" stylesheets="@add-update-delete.css" text="Select Role">
+        <items>
+          <MenuItem fx:id="adminRole" mnemonicParsing="false" onAction="#selectRole" text="admin" />
+          <MenuItem fx:id="userRole" mnemonicParsing="false" onAction="#selectRole" text="user" />
+        </items>
+      </MenuButton>
+      <Label fx:id="warning" layoutX="42.0" layoutY="272.0" prefHeight="18.0" prefWidth="285.0" text="warning" textFill="#f85f5f" wrapText="true">
+         <font>
+            <Font name="JetBrains Mono Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
