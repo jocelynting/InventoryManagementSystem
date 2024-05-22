@@ -41,19 +41,19 @@ The user can perform the following functions:
 
 #### Login
 
-![login](/Users/jocelyn/Study/Git/InventoryManagementSystem/screenshot/login.png)
+![login](screenshot/login.png)
 
 #### Admin
 
 **Inventory Management**
 
-![admin_inventory](/Users/jocelyn/Study/Git/InventoryManagementSystem/screenshot/admin_inventory.png)
+![admin_inventory](screenshot/admin_inventory.png)
 
-![admin_add_inventory](/Users/jocelyn/Study/Git/InventoryManagementSystem/screenshot/admin_add_inventory.png)
+![admin_add_inventory](screenshot/admin_add_inventory.png)
 
 **Users Management**
 
-![admin_delete](/Users/jocelyn/Study/Git/InventoryManagementSystem/screenshot/admin_delete.png)
+![admin_delete](screenshot/admin_delete.png)
 
 
 
@@ -61,17 +61,17 @@ The user can perform the following functions:
 
 **Activity Management**
 
-![admin_activity](/Users/jocelyn/Study/Git/InventoryManagementSystem/screenshot/admin_activity.png)
+![admin_activity](screenshot/admin_activity.png)
 
 #### User
 
 **View and search inventory products**
 
-![user_inventory](/Users/jocelyn/Study/Git/InventoryManagementSystem/screenshot/user_inventory.png)
+![user_inventory](screenshot/user_inventory.png)
 
 
 
 ## Logic Specification
 
-![Logic](/Users/jocelyn/Study/MSIS/INFO5100/Final Presentation/Reqirements/Prototype/Logic.png)
+![logic](screenshot/logic.png)
 
